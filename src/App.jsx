@@ -1,8 +1,13 @@
 import "./App.css";
+import AboutMe from "./components/AboutMe";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <h1 className="font-mono text-3xl text-pink-500">Loading Awesomeness..!</h1>
+    <main className="bg-ourPink h-screen ">
+      <Header />
+      <AboutMe />
+    </main>
   );
 }
 
