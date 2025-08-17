@@ -1,7 +1,12 @@
+import Button from "./Button";
+import Image from "./Image";
+
 export default function Header() {
   return (
     <div>
-      <h1>hi</h1>
+      <button>
+        <img src="./images/logo.png" className="rounded-full w-20" />
+      </button>
     </div>
   );
 }
