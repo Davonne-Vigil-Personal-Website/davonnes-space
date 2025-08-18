@@ -5,7 +5,10 @@ export default function Header() {
   return (
     <div>
       <button>
-        <img src="./images/logo.png" className="rounded-full w-20" />
+        <img
+          src="./images/logo.png"
+          className="w-20 border-2 border-pink-400 rounded-full"
+        />
       </button>
     </div>
   );
