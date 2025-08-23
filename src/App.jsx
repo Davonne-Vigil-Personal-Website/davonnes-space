@@ -13,13 +13,15 @@ function App() {
           <div className="flex flex-col mt-8">
             <Image
               image={davonneAnimated}
-              className="max-w-xs md:max-w-sm rounded-3xl shadow-lg drop-shadow-2xl"
+              className="w-68 rounded-3xl shadow-lg drop-shadow-2xl"
             />
             <AboutMe />
           </div>
           <Header />
 
-          <VideoPlayer />
+          <div>
+            <VideoPlayer />
+          </div>
         </div>
       </div>
     </main>

@@ -7,7 +7,7 @@ export default function Header() {
       <button>
         <img
           src="./images/logo.png"
-          className="w-20 border-2 border-pink-400 rounded-full"
+          className="w-20 border-2 mt-4 border-pink-400 rounded-full"
         />
       </button>
     </div>

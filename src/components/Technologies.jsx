@@ -9,7 +9,7 @@ export default function Technologies() {
     { tech: "Node.js/Express" },
   ];
   return (
-    <section className="mt-8">
+    <section className="mt-8 bg-white rounded-2xl p-4 w-68">
       <h1 className="font-grav text-2xl bg-black text-white p-2 w-60">
         Tech Stack
       </h1>
