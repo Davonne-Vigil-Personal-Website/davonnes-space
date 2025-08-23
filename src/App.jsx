@@ -8,9 +8,9 @@ function App() {
   const davonneAnimated = "./images/animatedDavonne.PNG";
   return (
     <main className="min-h-screen bg-pink-200">
-      <div className="flex flex-col min-h-screen justify-center items-center">
-        <div className="flex flex-col lg:flex-row gap-10">
-          <div className="flex flex-col mt-8">
+      <div className="flex flex-col  justify-center items-center w-full">
+        <div className="flex flex-col lg:flex-row gap-4 mt-10 ">
+          <div className="flex flex-col gap-4">
             <Image
               image={davonneAnimated}
               className="w-68 rounded-3xl shadow-lg drop-shadow-2xl"
@@ -19,9 +19,7 @@ function App() {
           </div>
           <Header />
 
-          <div>
-            <VideoPlayer />
-          </div>
+          <VideoPlayer />
         </div>
       </div>
     </main>
