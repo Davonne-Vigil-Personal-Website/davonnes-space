@@ -1,3 +1,4 @@
+import OurImages from "./OurImages";
 import VideoPlayer from "./VideoPlayer";
 
 export default function HeaderIntro() {
@@ -9,6 +10,7 @@ export default function HeaderIntro() {
           className="w-20 border-2 border-pink-400 rounded-full"
         />
       </button>
+      <OurImages />
       <p className="bg-pink-400 w-96 md:w-96 lg:w-full p-1 font-grav rounded">
         Open for freelance projects. Building websites for small business. Book
         a call{" "}
