@@ -38,7 +38,10 @@ export default function Technologies() {
       </h1>
       <div className="flex flex-col gap-4 mt-4">
         {myTechStack.map((techStack, index) => (
-          <button key={index} className="border border-black p-2 w-60 ">
+          <button
+            key={index}
+            className="border-2 rounded-2xl border-black p-2 w-60 "
+          >
             <Image image={techStack.image} className="w-12 mx-auto" />
             {techStack.tech}
           </button>
