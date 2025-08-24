@@ -7,7 +7,7 @@ function App() {
   const davonneAnimated = "./images/animatedDavonne.PNG";
   return (
     <main className="min-h-screen bg-pink-200">
-      <div className="flex flex-col  justify-center items-center w-full">
+      <div className="flex flex-col  justify-center items-center w-full p-4">
         <div className="flex flex-col lg:flex-row gap-10 mt-10 ">
           <div className="flex flex-col gap-4">
             <Image
