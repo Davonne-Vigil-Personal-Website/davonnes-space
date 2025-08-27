@@ -1,3 +1,4 @@
+import MyProjects from "./MyProjects";
 import OurImages from "./OurImages";
 import VideoPlayer from "./VideoPlayer";
 
@@ -24,7 +25,10 @@ export default function Intro() {
         </p>
       </div>
 
-      <VideoPlayer />
+      <div className="flex flex-col md:flex-row gap-8">
+        <VideoPlayer />
+        <MyProjects />
+      </div>
     </div>
   );
 }
