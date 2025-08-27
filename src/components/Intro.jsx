@@ -12,7 +12,7 @@ export default function Intro() {
         />
       </button>
       <OurImages />
-      <div className="bg-pink-400 p-2 rounded max-w-xs mx-auto text-center sm:max-w-md md:max-w-lg lg:max-w-full">
+      <div className="bg-pink-400 p-2 rounded max-w-xs text-center sm:max-w-md md:max-w-lg lg:max-w-full">
         <p className="font-gra text-sm font-bold md:text-xl">
           Open for freelance projects. Building websites for small business.
           Book a call{" "}

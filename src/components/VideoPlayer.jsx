@@ -9,7 +9,7 @@ export default function VideoPlayer() {
     },
   };
   return (
-    <div className="flex justify-center items-center w-4 mx-auto">
+    <div className="flex justify-center items-center">
       <YouTube videoId="ZDQsvckf2b4" opts={opts} />
     </div>
   );
