@@ -2,15 +2,15 @@ import YouTube from "react-youtube";
 
 export default function VideoPlayer() {
   const opts = {
-    height: "400",
-    width: "400",
+    height: "375",
+    width: "375",
     playerVars: {
       autoplay: 0,
     },
   };
   return (
-    <div className="flex justify-center items-center">
-      <YouTube videoId="11roNijeQiw" opts={opts} />
+    <div className="flex justify-center items-center w-4 mx-auto">
+      <YouTube videoId="ZDQsvckf2b4" opts={opts} />
     </div>
   );
 }
