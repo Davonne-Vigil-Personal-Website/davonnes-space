@@ -12,20 +12,22 @@ export default function Intro() {
         />
       </button>
       <OurImages />
-      <div className="bg-pink-400 p-2 rounded max-w-xs text-center sm:max-w-md md:max-w-lg lg:max-w-full">
-        <p className="font-gra text-sm font-bold md:text-xl">
-          Open for freelance projects. Building websites for small business.
-          Book a call{" "}
-          <a
-            href="https://calendly.com/davonnejv/"
-            className="text-pink-100 underline"
-          >
-            Today!
-          </a>
-        </p>
+      <div className="bg-pink-400 p-4 text-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-none mx-auto">
+        <div className="mx-auto">
+          <p className="font-gra text-sm font-bold md:text-xl">
+            Open for freelance projects. Building websites for small business.
+            Book a call{" "}
+            <a
+              href="https://calendly.com/davonnejv/"
+              className="text-pink-100 underline"
+            >
+              Today!
+            </a>
+          </p>
+        </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row md:gap-40">
         <VideoPlayer />
         <MyProjects />
       </div>
