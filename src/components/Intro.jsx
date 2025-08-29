@@ -27,7 +27,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row md:gap-40">
+      <div className="flex flex-col md:flex-row md:gap-20">
         <VideoPlayer />
         <MyProjects />
       </div>
