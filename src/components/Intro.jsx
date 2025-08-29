@@ -1,6 +1,6 @@
 import MyProjects from "./MyProjects";
 import OurImages from "./OurImages";
-import VideoPlayer from "./VideoPlayer";
+import DevLife from "./DevLife";
 
 export default function Intro() {
   return (
@@ -28,7 +28,7 @@ export default function Intro() {
       </div>
 
       <div className="flex flex-col md:flex-row md:gap-20">
-        <VideoPlayer />
+        <DevLife />
         <MyProjects />
       </div>
     </div>

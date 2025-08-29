@@ -12,7 +12,7 @@ export default function MyProjects() {
         <button key={project.id}>
           <Image
             image={project.image}
-            className="max-w-xs md:max-w-sm border-4  border-black"
+            className="max-w-xs md:max-w-sm border-4 border-black"
           />
         </button>
       ))}
