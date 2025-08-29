@@ -10,7 +10,7 @@ export default function DevLife() {
     },
   };
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center md:-mt-60">
       <YouTube videoId="ZDQsvckf2b4" opts={opts} />
       <HisPurpose />
     </div>

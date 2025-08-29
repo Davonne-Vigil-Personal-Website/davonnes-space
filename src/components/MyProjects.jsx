@@ -1,4 +1,5 @@
 import Image from "./Image";
+import Hobbies from "./Hobbies";
 
 export default function MyProjects() {
   const projects = [
@@ -6,16 +7,19 @@ export default function MyProjects() {
     { myProject: "project 2", image: "./images/designToDev.png", id: 1 },
     { myProject: "project 3", image: "./images/webDev.png", id: 3 },
   ];
+
   return (
-    <div className="w-10 h-10">
+    <section className="flex flex-col gap-4">
       {projects.map((project) => (
         <button key={project.id}>
           <Image
             image={project.image}
-            className="max-w-xs md:max-w-sm border-4 border-black"
+            className="max-w-sm border-4 border-black"
           />
         </button>
       ))}
-    </div>
+
+      <Hobbies />
+    </section>
   );
 }

@@ -25,11 +25,11 @@ export default function Technologies() {
       alt: "Tailwind CSS logo, image by icons8",
     },
 
-    {
-      tech: "Node.js/Express",
-      image: "./images/node.js.png",
-      alt: "Node.js/Express logo, image by icons8",
-    },
+    // {
+    //   tech: "Node.js/Express",
+    //   image: "./images/node.js.png",
+    //   alt: "Node.js/Express logo, image by icons8",
+    // },
   ];
   return (
     <section className="mt-8 bg-white rounded-2xl p-4 w-68">

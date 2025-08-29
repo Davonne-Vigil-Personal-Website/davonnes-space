@@ -9,7 +9,7 @@ export default function HisPurpose() {
       <button onClick={goToSite}>
         <Image
           image={notaryBusiness}
-          className="max-w-md border-black border-4 rounded 3xl"
+          className="max-w-sm md:max-w-lg border-black border-4 rounded 3xl"
         />
       </button>
     </section>
