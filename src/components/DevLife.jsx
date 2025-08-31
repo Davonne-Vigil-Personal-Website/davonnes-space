@@ -1,5 +1,6 @@
 import YouTube from "react-youtube";
 import HisPurpose from "./HisPurpose";
+import WithDevs from "./WithDevs";
 
 export default function DevLife() {
   const opts = {
@@ -10,9 +11,10 @@ export default function DevLife() {
     },
   };
   return (
-    <div className="flex flex-col justify-center items-center md:-mt-60">
+    <div className="flex flex-col justify-center items-center gap-8">
       <YouTube videoId="ZDQsvckf2b4" opts={opts} />
       <HisPurpose />
+      <WithDevs />
     </div>
   );
 }
