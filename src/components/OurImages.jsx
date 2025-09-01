@@ -8,7 +8,7 @@ export default function OurImages() {
     { image: "./images/pack.png", alt: "pack, dog pack" },
   ];
   return (
-    <section className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 p-2">
+    <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
       {myImages.map((image, index) => (
         <div
           className={`${index === 5 ? "block lg:block xl:hidden" : ""}`}
@@ -18,7 +18,7 @@ export default function OurImages() {
             src={image.image}
             alt={image.alt}
             key={image.id}
-            className="w-40 md:w-54 h-50 border-2 mx-auto rounded-2xl"
+            className="w-40 md:w-50 h-50 border-2 mx-auto rounded-2xl"
           />
         </div>
       ))}

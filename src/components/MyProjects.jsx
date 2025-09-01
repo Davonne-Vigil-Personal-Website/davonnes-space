@@ -9,12 +9,12 @@ export default function MyProjects() {
   ];
 
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col justify-center items-center gap-4">
       {projects.map((project) => (
         <button key={project.id}>
           <Image
             image={project.image}
-            className="max-w-sm border-4 rounded-3xl border-black"
+            className="max-w-xs border-4 rounded-3xl border-black"
           />
         </button>
       ))}
