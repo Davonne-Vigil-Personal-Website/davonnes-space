@@ -11,19 +11,19 @@ export default function HisPurpose() {
         <h1 className="font-grav text-2xl bg-black text-white p-2">
           Working With Devs
         </h1>
-        <button onClick={goToSite}>
+        <a href="https://habit-quest-collab.vercel.app/">
           <Image
             image={habitQuest}
             className="max-w-2xs md:max-w-md border-black border-4 rounded-3xl"
           />
-        </button>
+        </a>
 
-        <button onClick="">
+        <a href="https://our-space-omega.vercel.app/">
           <Image
             image={ourSpace}
             className="max-w-2xs md:max-w-md border-black border-4 rounded-3xl"
           />
-        </button>
+        </a>
       </div>
     </section>
   );
