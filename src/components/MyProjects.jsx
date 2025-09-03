@@ -8,8 +8,11 @@ export default function MyProjects() {
     { myProject: "project 3", image: "./images/webDev.png", id: 3 },
   ];
 
+  const basketball = "./images/basketball.jpg";
+
   return (
-    <section className="flex flex-col justify-center items-center gap-4">
+    <section className="flex flex-col justify-center items-center gap-4 mt-8 md:-mt-88">
+      <Image image={basketball} className="max-w-xs rounded-3xl" />
       {projects.map((project) => (
         <button key={project.id}>
           <Image

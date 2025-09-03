@@ -20,6 +20,11 @@ export default function Technologies() {
     },
 
     {
+      tech: "CSS",
+      image: "./images/css.png",
+      alt: "CSS logo, image by icons8",
+    },
+    {
       tech: "Tailwind CSS",
       image: "./images/tailwind.png",
       alt: "Tailwind CSS logo, image by icons8",
@@ -33,14 +38,14 @@ export default function Technologies() {
   ];
   return (
     <section className="mt-8 bg-white rounded-2xl p-4 w-68">
-      <h1 className="font-grav text-2xl bg-black text-white p-2 w-60">
+      <h1 className="font-grav text-2xl text-center bg-black text-white p-2 w-60">
         Tech Stack
       </h1>
       <div className="flex flex-col gap-4 mt-4">
         {myTechStack.map((techStack, index) => (
           <p
             key={index}
-            className="border-2 text-center rounded-2xl border-black p-2 w-60 "
+            className="border-2 font-bold text-center rounded-2xl border-black p-2 w-60 "
           >
             <Image image={techStack.image} className="w-12 mx-auto" />
             {techStack.tech}
