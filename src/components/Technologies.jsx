@@ -37,11 +37,11 @@ export default function Technologies() {
     // },
   ];
   return (
-    <section className="mt-8 bg-white rounded-2xl p-4 w-68">
-      <h1 className="font-grav text-2xl text-center bg-black text-white p-2 w-60">
+    <section className="mt-8 bg-white rounded-2xl p-8 w-68">
+      <h1 className="font-grav text-2xl text-center mx-auto bg-black text-white p-2">
         Tech Stack
       </h1>
-      <div className="flex flex-col gap-4 mt-4">
+      <div className="flex flex-col justify-center items-center gap-4 mt-4">
         {myTechStack.map((techStack, index) => (
           <p
             key={index}

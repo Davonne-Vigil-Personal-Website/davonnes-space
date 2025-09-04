@@ -13,7 +13,8 @@ export default function Contact() {
   };
 
   return (
-    <form className="max-w-xs h-96 text-black bg-white w-full rounded-3xl p-2">
+    <form className="max-w-md w-full bg-white rounded-3xl p-6 shadow-lg text-black mx-auto">
+      {" "}
       <h3 className="text-center font-grav text-xl mt-2">Lets get in touch!</h3>
       <div className="flex flex-col gap-8 mt-4">
         <label className="">
@@ -32,7 +33,7 @@ export default function Contact() {
             name="emailAddress"
             value={formData.emailAddress}
             onChange={handleChange}
-            className="p-2 shadow-md rounded-xl outline-pink-400 w-full"
+            className="w-full p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition"
             placeholder="E-mail?"
           />
         </label>
@@ -42,7 +43,7 @@ export default function Contact() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className=" shadow-md h-40 p-2 rounded-xl outline-pink-400 w-full"
+            className="w-full p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition"
             placeholder="Message Me"
           />
         </label>{" "}
