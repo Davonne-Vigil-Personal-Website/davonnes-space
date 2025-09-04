@@ -1,6 +1,7 @@
 import Image from "./Image";
 import Hobbies from "./Hobbies";
 import YouTube from "react-youtube";
+import { useState } from "react";
 
 export default function MyProjects() {
   const projects = [
