@@ -4,8 +4,8 @@ import WithDevs from "./WithDevs";
 
 export default function DevLife() {
   const opts = {
-    height: "400",
-    width: "400",
+    height: "350",
+    width: "350",
     playerVars: {
       autoplay: 0,
     },
