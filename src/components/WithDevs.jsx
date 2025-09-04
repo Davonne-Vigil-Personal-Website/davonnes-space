@@ -7,7 +7,7 @@ export default function HisPurpose() {
   const goToSite = () => {};
   return (
     <section className="bg-white rounded-2xl p-4 max-w-xs md:max-w-lg">
-      <div className="flex flex-col gap-9">
+      <div className="flex flex-col gap-4">
         <h1 className="font-grav text-2xl bg-black text-white p-2">
           Working With Devs
         </h1>

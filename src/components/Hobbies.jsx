@@ -1,6 +1,6 @@
 export default function Hobbies() {
   return (
-    <section className="">
+    <section className="mt-4">
       <video
         width="600"
         autoPlay
@@ -10,7 +10,7 @@ export default function Hobbies() {
         onError={(e) => console.error("Video error:", e)}
         onLoadStart={() => console.log("Video loading started")}
         onCanPlay={() => console.log("Video can play")}
-        className="mt-8 max-w-xs rounded-3xl shadow-lg shadow-black"
+        className=" max-w-xs rounded-3xl shadow-lg shadow-black"
       >
         <source src="./images/cube.mp4" type="video/mp4"></source>
       </video>

@@ -29,6 +29,7 @@ export default function Intro() {
 
       <div className="flex flex-col md:flex-row md:gap-20">
         <DevLife />
+
         <MyProjects />
       </div>
     </div>
