@@ -18,7 +18,7 @@ export default function OurImages() {
             src={image.image}
             alt={image.alt}
             key={image.id}
-            className="w-40 md:w-50 h-50 border-2 mx-auto rounded-2xl"
+            className="w-40 md:w-50 h-50 border-2 mx-auto rounded-2xl transition-all duration-300 transform hover:-translate-y-2 hover:rotate-0"
           />
         </div>
       ))}
