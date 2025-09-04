@@ -1,5 +1,5 @@
-import React from "react";
 import Technologies from "./Technologies";
+import Contact from "./Contact";
 
 export default function AboutMe() {
   return (
@@ -11,6 +11,7 @@ export default function AboutMe() {
       </div>
 
       <Technologies />
+      <Contact />
     </section>
   );
 }
