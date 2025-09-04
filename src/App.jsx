@@ -2,6 +2,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Intro from "./components/Intro";
 import Image from "./components/Image";
+import Footer from "./components/Footer";
 
 function App() {
   const davonneAnimated = "./images/animatedDavonne.PNG";
@@ -19,6 +20,7 @@ function App() {
             </div>
             <Intro />
           </div>
+          <Footer />
         </div>
       </div>
     </main>
