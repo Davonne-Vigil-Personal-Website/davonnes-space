@@ -1,14 +1,12 @@
 import Image from "./Image";
 import Hobbies from "./Hobbies";
-import YouTube from "react-youtube";
-import { useState } from "react";
 
 export default function MyProjects() {
   const projects = [
     {
       myProject: "project 1",
       image: "./images/gamePlan.png",
-      href: "https://www.youtube.com/@davonne007",
+      href: "https://github.com/Davonne007-TX/game-plan",
       id: 0,
     },
     {
@@ -24,14 +22,6 @@ export default function MyProjects() {
       id: 3,
     },
   ];
-
-  const opts = {
-    height: "300",
-    width: "300",
-    playerVars: {
-      autoplay: 0,
-    },
-  };
 
   const basketball = "./images/basketball.jpg";
 
@@ -49,7 +39,13 @@ export default function MyProjects() {
 
       <Hobbies />
       <div className="mt-8">
-        <YouTube videoId="11roNijeQiw" opts={opts} />
+        <iframe
+          width="350"
+          height="350"
+          src="https://www.youtube-nocookie.com/embed/11roNijeQiw"
+          title="YouTube video player"
+          frameBorder="0"
+        ></iframe>
       </div>
     </section>
   );

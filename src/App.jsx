@@ -5,7 +5,7 @@ import Image from "./components/Image";
 import Footer from "./components/Footer";
 
 function App() {
-  const davonneAnimated = "./images/animatedDavonne.PNG";
+  const davonneAnimated = "./images/davonneFire.PNG";
   return (
     <main className="min-h-screen bg-pink-200">
       <div className="flex flex-col justify-center items-center p-4">
