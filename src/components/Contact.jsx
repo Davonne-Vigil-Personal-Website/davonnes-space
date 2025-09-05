@@ -13,7 +13,7 @@ export default function Contact() {
   };
 
   return (
-    <form className="max-w-md w-full bg-white rounded-3xl p-6 shadow-lg text-black mx-auto">
+    <form className="max-w-md w-full bg-white rounded-3xl p-6 shadow-lg text-black mx-aut mt-4">
       {" "}
       <h3 className="text-center font-grav text-xl mt-2">Lets get in touch!</h3>
       <div className="flex flex-col gap-8 mt-4">

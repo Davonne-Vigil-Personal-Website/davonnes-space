@@ -9,6 +9,7 @@ body,
 @theme {
   --color-ourPink: #bf8f9c;
   --font-grav: "Gravitas One", serif;
+  --font-mon: "Montserrat", sans-serif;
 }
 
 button {

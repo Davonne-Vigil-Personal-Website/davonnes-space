@@ -5,21 +5,22 @@ import DevLife from "./DevLife";
 export default function Intro() {
   return (
     <div className="flex flex-col gap-4">
-      <button className="ml-8 w-20">
+      <a className="ml-8 w-20">
         <img
           src="./images/logo.PNG"
+          href=""
           className="w-20 h-20 border-2 border-pink-400 rounded-full"
         />
-      </button>
+      </a>
       <OurImages />
-      <div className="bg-pink-400 p-4 text-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-none mx-auto">
+      <div className="bg-pink-400 rounded p-2 text-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-none mx-auto">
         <div className="mx-auto">
-          <p className="font-gra text-sm font-bold md:text-xl">
+          <p className="font-mon text-sm font-bold md:text-xl">
             Open for freelance projects. Building websites for small business.
             Book a call{" "}
             <a
               href="https://calendly.com/davonnejv/"
-              className="text-pink-100 underline"
+              className="text-pink-100 font-mon underline"
             >
               Today!
             </a>

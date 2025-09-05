@@ -6,7 +6,7 @@ export default function OurImages() {
   const myImages = [
     {
       image: "./images/maryjane.jpg",
-      hoverImage: "./images/maryjane2.png",
+
       alt: "dog1, maryjane",
     },
     {
@@ -49,7 +49,7 @@ export default function OurImages() {
             key={image.id}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
-            className="w-40 md:w-50 h-50 border-2 mx-auto rounded-2xl transition-all duration-300 transform hover:-translate-y-2 hover:rotate-0"
+            className="w-40 md:w-60 h-50 border-2 mx-auto rounded-2xl transition-all duration-300 transform hover:-translate-y-2 hover:rotate-0"
           />
         </div>
       ))}
