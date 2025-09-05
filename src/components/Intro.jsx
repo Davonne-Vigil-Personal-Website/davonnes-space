@@ -8,7 +8,6 @@ export default function Intro() {
       <a className="ml-8 w-20">
         <img
           src="./images/logo.PNG"
-          href=""
           className="w-20 h-20 border-2 border-pink-400 rounded-full"
         />
       </a>
