@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "./Button";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -23,7 +23,8 @@ export default function Contact() {
       setError("Please enter both name and email");
       return;
     }
-    alert("it worked");
+
+    toast.success("Message sent successfully!");
 
     setFormData({
       name: "",
@@ -76,10 +77,21 @@ export default function Contact() {
         </label>{" "}
         <button
           onClick={submitForm}
-          className="bg-pink-300 p-2 rounded-full font-grav text-lg hover:scale-105 cursor-pointer"
+          className="bg-pink-300 p-2 rounded-full font-grav text-md hover:scale-105 cursor-pointer"
         >
           Send
         </button>
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          theme="dark"
+        />
       </div>
     </form>
   );

@@ -6,6 +6,10 @@ body,
   height: 100%;
 }
 
+:root {
+  --toastify-color-success: pink;
+}
+
 @theme {
   --color-ourPink: #bf8f9c;
   --font-grav: "Gravitas One", serif;
