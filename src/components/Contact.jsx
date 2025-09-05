@@ -18,10 +18,12 @@ export default function Contact() {
 
   const submitForm = (e) => {
     e.preventDefault();
-    alert("it worked");
+
     if (!formData.name || !formData.emailAddress) {
-      setError("Please enter both name and email❗");
+      setError("Please enter both name and email");
+      return;
     }
+    alert("it worked");
 
     setFormData({
       name: "",
@@ -36,7 +38,7 @@ export default function Contact() {
       <h3 className="text-center font-grav text-xl mt-2">Lets get in touch!</h3>
       <div className="flex flex-col gap-8 mt-4">
         <label className="">
-          {error && <p className="text-red-">{error}</p>}
+          {error && <p className="text-red-500 font-semibold">{error}</p>}
           <input
             type="text"
             name="name"
@@ -49,7 +51,7 @@ export default function Contact() {
           />
         </label>
         <label>
-          {error && <p className="text-red-">{error}</p>}
+          {error && <p className="text-red-500 font-semibold">{error}</p>}
           <input
             type="email"
             name="emailAddress"
