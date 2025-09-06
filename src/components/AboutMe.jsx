@@ -10,7 +10,8 @@ export default function AboutMe() {
           <p className="text-xl font-mon">Frontend Web Developer</p>
           <p className="text-xl font-mon">UI Developer</p>
           <p className="text-xl font-mon">
-            Building. Growing. Networking. Freelancing.
+            Building. <br />
+            Growing. Networking. Freelancing.
           </p>
         </div>
       </div>

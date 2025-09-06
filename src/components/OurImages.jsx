@@ -46,6 +46,7 @@ export default function OurImages() {
           <img
             src={hoveredIndex === index ? image.hoverImage : image.image}
             alt={image.alt}
+            loading="lazy"
             key={image.id}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}

@@ -6,7 +6,7 @@ export default function HisPurpose() {
 
   const goToSite = () => {};
   return (
-    <section className="bg-white rounded-2xl p-8 max-w-snm md:max-w-lg">
+    <section className="bg-white rounded-2xl p-4 md:p-8 max-w-xs md:max-w-lg">
       <div className="flex flex-col gap-4">
         <h1 className="font-grav text-2xl bg-black text-white p-2">
           Working With Devs
@@ -14,14 +14,14 @@ export default function HisPurpose() {
         <a href="https://habit-quest-collab.vercel.app/">
           <Image
             image={habitQuest}
-            className="max-w-2xs mx-auto md:max-w-md border-black border-4 rounded-3xl"
+            className="max-w-3xs mx-auto md:max-w-md border-black border-4 rounded-3xl"
           />
         </a>
 
         <a href="https://our-space-omega.vercel.app/">
           <Image
             image={ourSpace}
-            className="max-w-2xs mx-auto md:max-w-md border-black border-4 rounded-3xl"
+            className="max-w-3xs mx-auto md:max-w-md border-black border-4 rounded-3xl"
           />
         </a>
       </div>

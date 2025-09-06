@@ -34,7 +34,7 @@ export default function Contact() {
   };
 
   return (
-    <form className="max-w-xs md:max-w-md w-full bg-white rounded-3xl p-6 shadow-lg text-black mx-aut mt-4">
+    <form className="max-w-xs md:max-w-md bg-white rounded-3xl p-6 shadow-lg text-black mx-auto mt-4">
       {" "}
       <h3 className="text-center font-grav text-xl mt-2">Lets get in touch!</h3>
       <div className="flex flex-col gap-8 mt-4">
@@ -81,18 +81,18 @@ export default function Contact() {
         >
           Send
         </button>
-        <ToastContainer
-          position="top-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick={false}
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          theme="dark"
-        />
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        theme="dark"
+      />
     </form>
   );
 }
