@@ -4,7 +4,6 @@ export default function HisPurpose() {
   const habitQuest = "./images/habitQuest.png";
   const ourSpace = "./images/ourSpace.png";
 
-  const goToSite = () => {};
   return (
     <section className="bg-white rounded-2xl p-4 md:p-8 max-w-xs md:max-w-lg">
       <div className="flex flex-col gap-4">

@@ -26,7 +26,7 @@ export default function MyProjects() {
   const basketball = "./images/basketball.jpg";
 
   return (
-    <section className="flex flex-col justify-center items-center gap-4 mt-8">
+    <section className="flex flex-col justify-center items-center gap-4 mt-8 lg:-mt-68 ">
       <Image image={basketball} className="max-w-xs rounded-3xl" />
       {projects.map((project) => (
         <a key={project.id} href={project.href}>
