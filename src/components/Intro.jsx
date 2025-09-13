@@ -14,12 +14,12 @@ export default function Intro() {
       <OurImages />
       <div className="bg-pink-400 rounded p-2 text-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-none mx-auto">
         <div className="mx-auto">
-          <p className="font-mon text-sm font-bold md:text-xl">
+          <p className="font-mon text-sm md:text-xl">
             Open for freelance projects. Building websites for small business.
             Book a call{" "}
             <a
               href="https://calendly.com/davonnejv/"
-              className="text-pink-100 font-mon underline"
+              className="text-pink-100 font-bold font-mon underline"
             >
               Today!
             </a>
