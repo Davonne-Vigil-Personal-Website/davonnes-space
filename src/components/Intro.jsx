@@ -5,7 +5,8 @@ import DevLife from "./DevLife";
 export default function Intro() {
   return (
     <div className="flex flex-col gap-4">
-      <a className="ml-8 w-20">
+      <a className="ml-8 w-20" href="">
+        {" "}
         <img
           src="./images/logo.PNG"
           className="w-20 h-20 border-2 border-pink-400 rounded-full"

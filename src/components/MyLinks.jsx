@@ -16,6 +16,12 @@ const socialLinks = [
     image: "images/twitter.png",
     alt: "X logo, by Icons8",
   },
+
+  {
+    href: "https://www.youtube.com/@davonne007",
+    image: "images/youtube.png",
+    alt: "Youtube logo, by Icons8",
+  },
 ];
 
 export default function MyLinks() {
