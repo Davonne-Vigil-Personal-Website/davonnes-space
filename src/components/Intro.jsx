@@ -4,12 +4,12 @@ import DevLife from "./DevLife";
 
 export default function Intro() {
   return (
-    <div className="flex flex-col gap-4">
-      <a className="ml-8 w-20" href="">
-        {" "}
+    <section className="flex flex-col gap-4" aria-label="Intro Section">
+      <a className="ml-8 w-20" href="#" aria-label="Home">
         <img
           src="./images/logo.PNG"
           className="w-20 h-20 border-2 border-pink-400 rounded-full"
+          alt="Davonne Vigil Portfolio Logo"
         />
       </a>
       <OurImages />
@@ -21,6 +21,7 @@ export default function Intro() {
             <a
               href="https://calendly.com/davonnejv/"
               className="text-pink-100 font-bold font-mon underline"
+              aria-label="Book a call on Calendly"
             >
               Today!
             </a>
@@ -32,6 +33,6 @@ export default function Intro() {
         <DevLife />
         <MyProjects />
       </div>
-    </div>
+    </section>
   );
 }

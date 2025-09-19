@@ -8,7 +8,7 @@ export default function Footer() {
     >
       <MyLinks />
       <div
-        className="bg-pink-500 w-96 font-mon text-lg mx-auto p-2 rounded"
+        className="bg-pink-500 w-full font-mon text-lg mx-auto p-2 rounded"
         role="contentinfo"
         aria-label="Project information"
       >
