@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -16,6 +17,10 @@ export default function Contact() {
     setError("");
   };
 
+  const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
   const submitForm = (e) => {
     e.preventDefault();
 
@@ -24,19 +29,29 @@ export default function Contact() {
       return;
     }
 
-    toast.success("Message sent successfully!");
+    emailjs
+      .send(
+        SERVICE_ID,
+        TEMPLATE_ID,
 
-    setFormData({
-      name: "",
-      emailAddress: "",
-      message: "",
-    });
+        {
+          from_name: formData.name,
+          from_email: formData.emailAddress,
+          message: formData.message,
+        },
+        PUBLIC_KEY
+      )
+      .then(() => {
+        toast.success("Message sent successfully!");
+        setFormData({ name: "", emailAddress: "", message: "" });
+      })
+      .catch(() => setError("Failed to send message."));
   };
-
   return (
     <form
       className="max-w-xs md:max-w-md bg-white rounded-3xl p-6 shadow-lg text-black mx-auto mt-4"
       aria-label="Contact Form"
+      onSubmit={submitForm}
     >
       <h3 className="text-center font-grav text-xl mt-2">
         Let's get in touch!
@@ -88,7 +103,6 @@ export default function Contact() {
           placeholder="Message Me"
         />
         <button
-          onClick={submitForm}
           className="bg-pink-300 p-2 rounded-full font-grav text-md hover:scale-105 cursor-pointer"
           type="submit"
           aria-label="Send message"
