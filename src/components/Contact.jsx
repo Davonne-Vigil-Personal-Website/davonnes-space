@@ -34,50 +34,64 @@ export default function Contact() {
   };
 
   return (
-    <form className="max-w-xs md:max-w-md bg-white rounded-3xl p-6 shadow-lg text-black mx-auto mt-4">
-      {" "}
-      <h3 className="text-center font-grav text-xl mt-2">Lets get in touch!</h3>
+    <form
+      className="max-w-xs md:max-w-md bg-white rounded-3xl p-6 shadow-lg text-black mx-auto mt-4"
+      aria-label="Contact Form"
+    >
+      <h3 className="text-center font-grav text-xl mt-2">
+        Let's get in touch!
+      </h3>
       <div className="flex flex-col gap-8 mt-4">
-        <label className="">
-          {error && <p className="text-red-500 font-semibold">{error}</p>}
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            autoComplete="off"
-            onChange={handleChange}
-            className="p-2 outline-pink-400 rounded-xl shadow-md w-full"
-            placeholder="Whats your name?"
-            required
-          />
+        <label htmlFor="name" className="font-semibold">
+          Name
         </label>
-        <label>
-          {error && <p className="text-red-500 font-semibold">{error}</p>}
-          <input
-            type="email"
-            name="emailAddress"
-            value={formData.emailAddress}
-            autoComplete="off"
-            onChange={handleChange}
-            className="w-full p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition"
-            placeholder="E-mail?"
-            required
-          />
+        {error && (
+          <p className="text-red-500 font-semibold" aria-live="polite">
+            {error}
+          </p>
+        )}
+        <input
+          id="name"
+          type="text"
+          name="name"
+          value={formData.name}
+          autoComplete="off"
+          onChange={handleChange}
+          className="p-2 outline-pink-400 rounded-xl shadow-md w-full"
+          placeholder="What's your name?"
+          required
+        />
+        <label htmlFor="emailAddress" className="font-semibold">
+          Email Address
         </label>
-        <label>
-          <textarea
-            type="text"
-            name="message"
-            value={formData.message}
-            autoComplete="off"
-            onChange={handleChange}
-            className="w-full h-28 p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition"
-            placeholder="Message Me"
-          />
-        </label>{" "}
+        <input
+          id="emailAddress"
+          type="email"
+          name="emailAddress"
+          value={formData.emailAddress}
+          autoComplete="off"
+          onChange={handleChange}
+          className="w-full p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition"
+          placeholder="E-mail?"
+          required
+        />
+        <label htmlFor="message" className="font-semibold">
+          Message
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          autoComplete="off"
+          onChange={handleChange}
+          className="w-full h-28 p-3 rounded-xl border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition"
+          placeholder="Message Me"
+        />
         <button
           onClick={submitForm}
           className="bg-pink-300 p-2 rounded-full font-grav text-md hover:scale-105 cursor-pointer"
+          type="submit"
+          aria-label="Send message"
         >
           Send
         </button>

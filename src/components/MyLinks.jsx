@@ -2,7 +2,7 @@ import Image from "./Image";
 
 const socialLinks = [
   {
-    href: "https://www.linkedin.com/in/davonnevigiål/",
+    href: "https://www.linkedin.com/in/davonnevigil/",
     image: "images/linkedin.png",
     alt: "LinkedIn logo, by Icons8",
   },
@@ -26,9 +26,19 @@ const socialLinks = [
 
 export default function MyLinks() {
   return (
-    <section className="flex flex-row justify-center items-center gap-4 py-8">
+    <section
+      className="flex flex-row justify-center items-center gap-4 py-8"
+      aria-label="Social Media Links"
+    >
       {socialLinks.map((link, index) => (
-        <a key={index} href={link.href} className="flex items-center">
+        <a
+          key={index}
+          href={link.href}
+          className="flex items-center"
+          aria-label={`Visit my ${link.alt.split(" ")[0]} profile`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             image={link.image}
             alt={link.alt}
