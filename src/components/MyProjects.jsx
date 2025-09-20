@@ -36,8 +36,8 @@ export default function MyProjects() {
           width="350"
           height="350"
           src="https://www.youtube-nocookie.com/embed/11roNijeQiw"
-          title="Davonne Vigil YouTube video"
-          aria-label="Davonne Vigil YouTube video"
+          title="Davonne Vigil YouTube video on her Calm Paws Project about her dog and firework awareness"
+          aria-label="Davonne Vigil YouTube video on her Calm Paws Project  about her dog and firework awareness"
           frameBorder="0"
         ></iframe>
       </div>
