@@ -11,7 +11,7 @@ function App() {
       <h1 className="sr-only">Davonne Vigil Portfolio</h1>
       <div className="flex flex-col justify-center items-center p-4">
         <div className=" max-w-7xl">
-          <div className="flex flex-col xl:flex-row gap-20 mt-10 ">
+          <div className="flex flex-col lg:flex-row gap-20 mt-10 ">
             <div className="flex flex-col gap-4">
               <Image
                 image={davonneAnimated}
