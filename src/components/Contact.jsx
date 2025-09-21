@@ -21,6 +21,10 @@ export default function Contact() {
   const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
   const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
+  console.log("Service:", SERVICE_ID);
+  console.log("Template:", TEMPLATE_ID);
+  console.log("Public Key:", PUBLIC_KEY);
+
   const submitForm = (e) => {
     e.preventDefault();
 
@@ -33,10 +37,9 @@ export default function Contact() {
       .send(
         SERVICE_ID,
         TEMPLATE_ID,
-
         {
-          from_name: formData.name,
-          from_email: formData.emailAddress,
+          name: formData.name,
+          email: formData.emailAddress,
           message: formData.message,
         },
         PUBLIC_KEY
@@ -45,7 +48,7 @@ export default function Contact() {
         toast.success("Message sent successfully!");
         setFormData({ name: "", emailAddress: "", message: "" });
       })
-      .catch(() => setError("Failed to send message."));
+      .catch(() => setError("Failed to send message." + error.text));
   };
   return (
     <form
