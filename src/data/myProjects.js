@@ -2,7 +2,7 @@ export const projects = [
   {
     myProject: "project 1",
     image: "./images/gamePlan.png",
-    href: "https://github.com/Davonne007-TX/game-plan",
+    href: "https://www.youtube.com/watch?v=ZDQsvckf2b4",
     id: 0,
   },
   {
