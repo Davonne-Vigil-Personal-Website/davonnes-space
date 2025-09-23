@@ -7,7 +7,7 @@ export default function Intro() {
     <section className="flex flex-col gap-4" aria-label="Intro Section">
       <a className="ml-8 w-20" href="#" aria-label="Home">
         <img
-          src="./images/logo.PNG"
+          src="./images/logo.png"
           className="w-20 h-20 border-2 border-pink-400 rounded-full"
           alt="Davonne Vigil Portfolio Logo"
         />
