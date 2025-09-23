@@ -4,7 +4,7 @@ import DevLife from "./DevLife";
 
 export default function Intro() {
   return (
-    <section className="flex flex-col gap-4" aria-label="Intro Section">
+    <section className="flex flex-col  gap-4" aria-label="Intro Section">
       <a className="ml-8 w-20" href="#" aria-label="Home">
         <p className="w-20 h-20 border-2 bg-black text-pink-500 font-grav flex justify-center items-center text-center font- border-pink-400 rounded-full">
           DV
