@@ -6,9 +6,12 @@ export default function Intro() {
   return (
     <section className="flex flex-col gap-4" aria-label="Intro Section">
       <a className="ml-8 w-20" href="#" aria-label="Home">
-        <p className="w-20 h-20 border-2 bg-black text-pink-500 font-grav flex justify-center items-center text-center font- border-pink-400 rounded-full">
+        <a
+          href="https://davonnes-online-now.vercel.app/"
+          className="w-20 h-20 border-2 bg-black text-pink-500 font-grav flex justify-center items-center text-center font- border-pink-400 rounded-full"
+        >
           DV
-        </p>
+        </a>
       </a>
       <OurImages />
       <div className="bg-pink-400 rounded p-2 text-center w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-none mx-auto">
