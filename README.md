@@ -6,13 +6,13 @@
 
 - Deployed Project: https://davonne-disney-inspired.vercel.app/
 
-#Run Locally
+## Run Locally
 
 Want to check it out on your computer? Here’s how 🚀 :
 
 1. Go to folder of your choice where you would like to clone this. Open the folder in VS Code. Go to terminal and clone the repository.
 
-git clone
+git clone git@github.com:Davonne-Vigil-Personal-Website/davonnes-space.git
 
 2. List the files to confirm the project is there
 
@@ -20,7 +20,7 @@ ls
 
 3. Navigate into the project folder
 
-cd collection
+cd project-myZone
 
 4. Install dependencies
 
