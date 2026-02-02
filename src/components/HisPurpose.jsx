@@ -1,7 +1,7 @@
 import Image from "./Image";
 
 export default function HisPurpose() {
-  const notaryBusiness = "./images/notary.png";
+  const notaryBusiness = "./images/notary.webp";
   const techStyles = "./images/techStyles.png";
 
   return (

@@ -1,7 +1,7 @@
 export const myImages = [
   {
-    image: "./images/maryjane.jpg",
-    hoverImage: "./images/maryjane2.jpg",
+    image: "./images/maryjane.webp",
+    hoverImage: "./images/maryjane2.webp",
     alt: "dog1, maryjane",
   },
   {
@@ -10,8 +10,8 @@ export const myImages = [
     alt: "dog2, roxy",
   },
   {
-    image: "./images/lexy.png",
-    hoverImage: "./images/lexy2.png",
+    image: "./images/lexy.webp",
+    hoverImage: "./images/lexy2.webp",
     alt: "dog3, lexy",
   },
   {
@@ -20,8 +20,8 @@ export const myImages = [
     alt: "dog4, coco",
   },
   {
-    image: "./images/daisy.png",
-    hoverImage: "./images/daisy2.jpeg",
+    image: "./images/daisy.webp",
+    hoverImage: "./images/daisy2.webp",
     alt: "dog5, daisy",
   },
   {

@@ -5,7 +5,7 @@ import Image from "./components/Image";
 import Footer from "./components/Footer";
 
 function App() {
-  const davonneAnimated = "./images/davonneFire.PNG";
+  const davonneAnimated = "./images/davonneFire.webp";
   return (
     <main className="min-h-screen bg-pink-200" aria-label="Main content area">
       <h1 className="sr-only">Davonne Vigil Portfolio</h1>

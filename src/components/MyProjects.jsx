@@ -3,7 +3,7 @@ import Image from "./Image";
 import WhatIBring from "./WhatIBring";
 
 export default function MyProjects() {
-  const basketball = "./images/basketball.jpg";
+  const basketball = "./images/basketball.webp";
 
   return (
     <section

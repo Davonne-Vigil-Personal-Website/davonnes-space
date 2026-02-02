@@ -11,7 +11,7 @@ export default function DevLife() {
       <div className="w-full max-w-4xl aspect-[4/3]">
         <iframe
           className="w-full h-full"
-          src="https://www.youtube-nocookie.com/embed/ZDQsvckf2b4"
+          src="https://www.youtube-nocookie.com/embed/Q-aCKjL0_TM"
           title="DevLife: YouTube video about developer life"
           aria-label="DevLife: YouTube video about developer life"
           frameBorder="0"

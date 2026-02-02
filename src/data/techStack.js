@@ -17,7 +17,7 @@ export const myTechStack = [
 
   {
     tech: "CSS",
-    image: "./images/css.png",
+    image: "./images/css.webp",
     alt: "CSS logo, image by icons8",
   },
   {
