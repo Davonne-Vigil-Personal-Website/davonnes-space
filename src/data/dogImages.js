@@ -15,8 +15,8 @@ export const myImages = [
     alt: "dog3, lexy",
   },
   {
-    image: "./images/coco.png",
-    hoverImage: "./images/coco2.png",
+    image: "./images/coco.webp",
+    hoverImage: "./images/coco2.webp",
     alt: "dog4, coco",
   },
   {
