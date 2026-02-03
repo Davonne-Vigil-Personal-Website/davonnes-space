@@ -2,7 +2,7 @@ import Image from "./Image";
 
 export default function WithDevs() {
   const habitQuest = "./images/habitQuest.webp";
-  const ourSpace = "./images/ourSpace.png";
+  const ourSpace = "./images/ourSpace.webp";
 
   return (
     <section

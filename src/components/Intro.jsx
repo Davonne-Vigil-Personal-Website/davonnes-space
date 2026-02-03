@@ -7,7 +7,7 @@ export default function Intro() {
     <section className="flex flex-col gap-4" aria-label="Intro Section">
       <li className="ml-8 w-20" href="#" aria-label="Home">
         <a
-          href="https://davonnes-online-now.vercel.app/"
+          href="https://dvs-space.vercel.app/"
           className="w-20 h-20 border-2 bg-black text-pink-500 font-grav flex justify-center items-center text-center font- border-pink-400 rounded-full"
         >
           DV
